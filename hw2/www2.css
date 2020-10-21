@@ -1,0 +1,44 @@
+.father {
+    background: black;
+    width: 600px;
+    height: 400px;
+    padding: 4px;
+}
+.child1 {
+    background: orange;
+    width: 600px;
+    height: 75px;
+    clear: both;
+}
+.child2 {
+    background: red;
+    width: 135px;
+    height: 249px;
+    float: left;
+    border-bottom: 1px solid black;
+}
+.child3 {
+    background: green;
+    width: 170px;
+    height: 250px;
+    float: left;
+}
+.child4 {
+    background:rgb(7, 132, 182);
+    width: 170px;
+    height: 250px;
+    float: left;
+}
+.child5 {
+    background:black;
+    width: 124px;
+    height: 250px;
+    float:left;
+    border-right: 1px solid white;
+}
+.child6 {
+    background:orange;
+    width: 600px;
+    height: 75px;
+    clear: both;
+}
