@@ -3,6 +3,7 @@
     width: 600px;
     height: 400px;
     padding: 4px;
+    padding-top: 2px;
 }
 .child1 {
     background: orange;
