@@ -1,14 +1,9 @@
-*{
+* {
     margin: 0;
-}
-.conteiner {
 }
 .menu {
     list-style: none;
     text-align: center;
-    font-size: 11px;
-    font-weight: 700;
-    font-family: sans-serif;
     padding-bottom: 10px;
     margin-top: 10px;
 }
@@ -19,9 +14,58 @@ a {
 .link {
     display: inline-block;
     position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
     padding: 0 8px;
+    font-weight: 700;
 }
 .red_conteiner {
     height: 90px;
-    background: rgb(100, 24, 24);
+    background: rgb(117, 26, 26);
+    color: white;
+    font-family: 'Times New Roman', Times, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.divka {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.end {
+    justify-content: space-between;
+}
+.icon {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 3px;
+}
+.button > a {
+    color: white;
+}
+.button {
+    width: 85px;
+    height: 30px;
+    background: rgb(150, 37, 37);
+    border: 3px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font {
+    font-size: 13px;
+}
+.conteiner_link {
+    border-bottom: 1px solid rgb(214, 207, 207);
+}
+.under {
+    font-size: 16px;
 }
