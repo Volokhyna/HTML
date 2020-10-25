@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.conteiner {
+}
+.menu {
+    list-style: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.link {
+    display: inline-block;
+    position: relative;
+    padding: 0 8px;
+}
+.red_conteiner {
+    height: 90px;
+    background: rgb(100, 24, 24);
+}
