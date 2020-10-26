@@ -117,3 +117,8 @@ span {
 .information {
     margin: 50px;
 }
+
+.covid_item img {
+    width: 100px;
+    height: 30px;
+}
