@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
 }
 .menu {
     list-style: none;
@@ -11,10 +14,12 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color: gray;
+}
 .link {
     display: inline-block;
     position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     padding: 0 8px;
     font-weight: 700;
@@ -23,7 +28,6 @@ a {
     height: 90px;
     background: rgb(117, 26, 26);
     color: white;
-    font-family: 'Times New Roman', Times, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,7 +50,26 @@ a {
     height: 3px;
     background: white;
     margin: 3px;
+    position: relative;
 }
+
+.icon::before, .icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.icon::after {
+    top: 6px;
+}
+
+.icon::before {
+    top: -6px;
+}
+
 .button > a {
     color: white;
 }
@@ -68,4 +91,29 @@ a {
 }
 .under {
     font-size: 16px;
+}
+.cursor {
+    cursor: pointer;
+}
+.covid {
+    display: flex;
+    justify-content: center;
+}
+.link_second {
+    color: rgb(117, 26, 26);
+    font-size: 20px;
+}
+.covid_item {
+    width: calc(100% + 10px);
+    position: relative;
+    border: #e3e3e3 1px solid;
+    margin: 5px 10px 5px 0;
+    box-sizing: border-box;
+}
+span {
+    font-weight: bold;
+    font-size: 36px;
+}
+.information {
+    margin: 50px;
 }
