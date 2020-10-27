@@ -24,6 +24,9 @@ a:hover {
     padding: 0 8px;
     font-weight: 700;
 }
+.the_main {
+    color: rgb(117, 26, 26);
+}
 .red_conteiner {
     height: 90px;
     background: rgb(117, 26, 26);
@@ -95,6 +98,9 @@ a:hover {
 .cursor {
     cursor: pointer;
 }
+.information {
+    margin: 30px 110px;
+}
 .covid {
     display: flex;
     justify-content: center;
@@ -104,21 +110,34 @@ a:hover {
     font-size: 20px;
 }
 .covid_item {
-    width: calc(100% + 10px);
+    width: 100%;
     position: relative;
     border: #e3e3e3 1px solid;
     margin: 5px 10px 5px 0;
+    padding: 4px 0 4px 10px;
     box-sizing: border-box;
 }
-span {
-    font-weight: bold;
-    font-size: 36px;
+.covid:hover{
+    color: rgb(117, 26, 26);
 }
-.information {
-    margin: 50px;
-}
-
 .covid_item img {
     width: 100px;
     height: 30px;
+}
+.numeral {
+    font-weight: bold;
+    font-size: 36px;
+}
+.mini_text {
+    font-size: 13px;
+}
+.grey_conteiner {
+    width: 100%;
+    height: 335px;
+    background: #3b3b3e;
+    position: relative;
+}
+.gunko {
+    width: 230px;
+    height: 125px;
 }
